@@ -1,0 +1,9 @@
+<div class="wrapper">
+    <p>№</p>
+    <p>First Name</p>
+    <p>Last Name</p>
+    <p>Age</p>
+</div>
+<app-child-person [person]="user" [index]="i" *ngFor="let user of userList; index as i"></app-child-person>
+
+<button (click)="delete()">Delete User</button>

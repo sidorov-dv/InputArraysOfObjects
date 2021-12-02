@@ -1,0 +1,22 @@
+.wrapper {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    padding-bottom: 15px;
+    p {
+        width: 100px;
+        margin: 0;
+    }
+}
+
+button {
+    margin-top: 20px;
+    border: 2px solid red;
+    background-color:darksalmon;
+    font-weight: 700;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+}
